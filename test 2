@@ -1,0 +1,9 @@
+# Skriver ut en melding til konsollen
+
+print("Very Good, Very Nice")
+
+
+"""
+test, Hei verden
+kult Live leak
+"""

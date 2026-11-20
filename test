@@ -1,0 +1,11 @@
+# Skriver ut en melding til konsollen, venter på brukerinput for å fortsette 🤯
+input("Hei alle sammen!")
+print("hello, world!")
+
+while True:
+    user_input = input("Skriv 'exit' for å avslutte: ")
+    if user_input.lower() == 'exit':
+        print("Avslutter programmet. Ha en fin dag!")
+        break
+    else:
+        print(f"Du skrev: {user_input}. Prøv igjen eller skriv 'exit' for å avslutte.")
